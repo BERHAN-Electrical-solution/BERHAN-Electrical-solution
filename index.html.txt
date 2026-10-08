@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Berhan Electrical Solutions | Electrician, CCTV, Satellite & Network — Kera Kore, Addis Ababa</title>
+<meta name="description" content="Berhan Electrical Solutions (ብርሃን ኤሌክትሪካል ሉሽንስ) provides electrical work, TV/satellite installation, CCTV & intercom, and internet/network solutions for homes and businesses in Kera Kore, Addis Ababa. Call 0993 550 104 or WhatsApp +251 993 550 104.">
+<meta name="theme-color" content="#0B1A33">
+<meta name="author" content="Berhan Electrical Solutions">
+<meta name="robots" content="index,follow">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Berhan Electrical Solutions">
+<meta property="og:title" content="Berhan Electrical Solutions — Electrical. Security. Connectivity. All in One Solution">
+<meta property="og:description" content="Electrical work, TV/satellite, CCTV & intercom, and internet/network installation in Kera Kore, Addis Ababa.">
+<meta property="og:locale" content="en_ET">
+<meta property="og:locale:alternate" content="am_ET">
+<!-- TODO on deploy: set og:url and og:image to your absolute domain (e.g. https://yourdomain/og.jpg) -->
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Cpath%20d='M12%2030L32%2012L52%2030'%20fill='none'%20stroke='%230085FF'%20stroke-width='4'%20stroke-linejoin='round'/%3E%3Cpath%20d='M17%2027V52H47V27'%20fill='none'%20stroke='%230085FF'%20stroke-width='4'%20stroke-linejoin='round'/%3E%3Cpath%20d='M34%2018L26%2036L32%2035L28%2048L40%2031L34%2032Z'%20fill='%23F5BE28'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Berhan Electrical Solutions",
+  "alternateName":"ብርሃን ኤሌክትሪካል ሉሽንስ",
+  "description":"Electrical work, TV/satellite installation, CCTV & intercom, and internet/network solutions for homes and businesses in Addis Ababa.",
+  "slogan":"Electrical. Security. Connectivity. All in One Solution",
+  "address":{"@type":"PostalAddress","streetAddress":"Kera Kore","addressLocality":"Addis Ababa","addressCountry":"ET"},
+  "areaServed":{"@type":"City","name":"Addis Ababa"},
+  "contactPoint":[
+    {"@type":"ContactPoint","telephone":"+251-99-355-0104","contactType":"customer service"},
+    {"@type":"ContactPoint","telephone":"+251-71-379-1963","contactType":"customer service"}
+  ],
+  "makesOffer":[
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"General Electrical Work"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"TV / Satellite Installation"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"CCTV Camera & Intercom Installation"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Internet / Network Installation"}}
+  ]
+}
+</script>
+<style>
+:root{
+  --blue:#0085FF; --blue-d:#0069cc; --gold:#F5BE28; --gold-d:#d9a415;
+  --navy-900:#081426; --navy-800:#0B1A33; --navy-700:#102544; --panel:#122A4D; --line:#1d3a63;
+  --light:#F4F7FB; --white:#fff; --ink:#0B1A33; --slate:#3A4A66; --muted:#6B7A93;
+  --maxw:1180px; --r:10px; --shadow:0 10px 30px rgba(8,20,38,.12);
+  --ff-h:"Barlow","Noto Sans Ethiopic",system-ui,sans-serif;
+  --ff-b:"Inter","Noto Sans Ethiopic",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--ff-b);color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:var(--ff-h);line-height:1.15;margin:0 0 .5em;font-weight:700;letter-spacing:.2px}
+p{margin:0 0 1em}
+ul{margin:0;padding:0;list-style:none}
+.container{width:100%;max-width:var(--maxw);margin-inline:auto;padding-inline:clamp(16px,4vw,28px)}
+section{scroll-margin-top:84px}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:var(--navy-900);padding:10px 16px;border-radius:0 0 8px 0;font-weight:700;z-index:200}
+.skip:focus{left:0}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:4px}
+.eyebrow{font-family:var(--ff-h);font-weight:700;text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;color:var(--blue)}
+.on-dark .eyebrow{color:var(--gold)}
+.lead{font-size:clamp(1rem,1.4vw,1.12rem);color:var(--slate);max-width:62ch}
+.on-dark .lead{color:#cdd9ec}
+.center{text-align:center;margin-inline:auto}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.55em;font-family:var(--ff-h);font-weight:700;font-size:.98rem;padding:.85em 1.4em;border-radius:var(--r);border:2px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .2s ease,background .2s ease,color .2s ease;line-height:1}
+.btn svg{width:1.15em;height:1.15em;flex:none}
+.btn:active{transform:translateY(1px)}
+.btn-gold{background:var(--gold);color:var(--navy-900);box-shadow:0 6px 18px rgba(245,190,40,.35)}
+.btn-gold:hover{background:var(--gold-d)}
+.btn-blue{background:var(--blue);color:#fff}
+.btn-blue:hover{background:var(--blue-d)}
+.btn-wa{background:#1FA855;color:#fff}
+.btn-wa:hover{background:#178f47}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+.btn-outline{background:transparent;color:var(--blue);border-color:var(--blue)}
+.btn-outline:hover{background:var(--blue);color:#fff}
+.btn-sm{padding:.6em 1em;font-size:.9rem}
+
+/* header */
+header.site{position:sticky;top:0;z-index:100;background:rgba(11,26,51,.92);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--line);transition:padding .2s ease,background .2s ease}
+header.site.scrolled{background:rgba(8,20,38,.97)}
+.nav{display:flex;align-items:center;gap:18px;min-height:72px}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.brand .logo{width:42px;height:42px;flex:none}
+.brand-txt{display:flex;flex-direction:column;line-height:1.05}
+.brand-txt b{font-family:var(--ff-h);color:#fff;font-weight:800;font-size:1.02rem;letter-spacing:.3px}
+.brand-txt span{color:var(--gold);font-family:"Noto Sans Ethiopic",var(--ff-b);font-size:.74rem}
+.menu{display:flex;align-items:center;gap:6px}
+.menu a{color:#dbe6f7;font-family:var(--ff-h);font-weight:600;font-size:.95rem;padding:8px 12px;border-radius:8px;transition:color .15s,background .15s}
+.menu a:hover,.menu a[aria-current="true"]{color:var(--gold);background:rgba(245,190,40,.08)}
+.nav-cta{display:flex;align-items:center;gap:8px}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.lang button{background:transparent;color:#cdd9ec;border:0;font-family:var(--ff-h);font-weight:700;font-size:.82rem;padding:7px 10px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--gold);color:var(--navy-900)}
+.burger{display:none;background:transparent;border:1px solid var(--line);border-radius:8px;width:44px;height:40px;cursor:pointer;align-items:center;justify-content:center}
+.burger span,.burger span::before,.burger span::after{content:"";display:block;width:20px;height:2px;background:#fff;border-radius:2px;position:relative;transition:.2s}
+.burger span::before{position:absolute;top:-6px}.burger span::after{position:absolute;top:6px}
+.mobile-panel{display:none}
+
+/* hero */
+.hero{position:relative;background:
+   radial-gradient(1200px 500px at 80% -10%,rgba(0,133,255,.18),transparent 60%),
+   linear-gradient(180deg,var(--navy-800),var(--navy-900));
+   color:#fff;overflow:hidden;padding:clamp(48px,8vw,96px) 0 clamp(56px,8vw,104px)}
+.hero::before{content:"";position:absolute;inset:0;opacity:.5;background-image:
+   linear-gradient(rgba(29,58,99,.5) 1px,transparent 1px),
+   linear-gradient(90deg,rgba(29,58,99,.5) 1px,transparent 1px);
+   background-size:46px 46px;mask-image:radial-gradient(80% 80% at 50% 30%,#000,transparent);pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(28px,5vw,56px);align-items:center}
+.hero h1{font-size:clamp(2rem,5.2vw,3.4rem);font-weight:800;letter-spacing:.5px;margin:.15em 0 .1em}
+.hero .am-name{font-family:"Noto Sans Ethiopic",var(--ff-h);color:var(--gold);font-weight:700;font-size:clamp(1.15rem,2.6vw,1.7rem);margin-bottom:.5em}
+.slogan{display:inline-flex;align-items:center;gap:10px;font-family:var(--ff-h);font-weight:600;color:#eaf1fb;background:rgba(0,133,255,.12);border:1px solid var(--line);border-left:4px solid var(--gold);padding:10px 16px;border-radius:8px;margin:0 0 1em;max-width:100%}
+.slogan .am{font-family:"Noto Sans Ethiopic",var(--ff-b)}
+.support{color:#cdd9ec;font-weight:500;letter-spacing:.3px;margin-bottom:1.4em}
+.support b{color:#fff}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hero-cta .subtle{background:none;border:0;color:#9fb3d1;font-family:var(--ff-h);font-weight:600;cursor:pointer;display:inline-flex;gap:6px;align-items:center;padding:8px 4px}
+.hero-cta .subtle:hover{color:var(--gold)}
+/* card echo */
+.card-echo{background:linear-gradient(180deg,var(--panel),var(--navy-700));border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:0 24px 60px rgba(0,0,0,.4);position:relative}
+.card-echo .top{display:flex;align-items:center;gap:12px;padding-bottom:14px;border-bottom:1px dashed var(--line);margin-bottom:14px}
+.card-echo .top .logo{width:46px;height:46px}
+.card-echo .top b{font-family:var(--ff-h);color:#fff;font-size:1rem;line-height:1.1}
+.card-echo .top span{color:var(--gold);font-family:"Noto Sans Ethiopic";font-size:.72rem}
+.card-echo .label{font-family:var(--ff-h);text-transform:uppercase;letter-spacing:.16em;font-size:.7rem;color:var(--gold);margin-bottom:8px}
+.numbox{border:2px solid var(--gold);border-radius:10px;padding:14px 16px;background:rgba(245,190,40,.06)}
+.numbox a{display:flex;align-items:center;gap:10px;color:#fff;font-family:var(--ff-h);font-weight:700;font-size:1.18rem;letter-spacing:.5px;font-variant-numeric:tabular-nums}
+.numbox a+a{margin-top:8px}
+.numbox a svg{width:18px;height:18px;color:var(--gold);flex:none}
+.card-echo .loc{display:flex;gap:8px;align-items:flex-start;color:#cdd9ec;font-size:.9rem;margin-top:14px}
+.card-echo .loc svg{width:16px;height:16px;color:var(--blue);flex:none;margin-top:3px}
+
+/* trust strip */
+.trust{background:var(--white);border-bottom:1px solid #e6ecf4}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.trust-item{padding:26px 22px;border-left:1px solid #eef2f8;display:flex;gap:14px;align-items:flex-start}
+.trust-item:first-child{border-left:0}
+.trust-item .ic{width:42px;height:42px;flex:none;border-radius:10px;background:rgba(0,133,255,.1);color:var(--blue);display:grid;place-items:center}
+.trust-item .ic svg{width:22px;height:22px}
+.trust-item h3{font-size:1rem;margin:0 0 2px}
+.trust-item p{font-size:.86rem;color:var(--muted);margin:0}
+
+/* generic section */
+.sec{padding:clamp(56px,8vw,96px) 0}
+.sec.light{background:var(--light)}
+.sec-head{max-width:720px;margin-bottom:clamp(28px,4vw,46px)}
+.sec-head.center{margin-inline:auto}
+.sec h2{font-size:clamp(1.6rem,3.4vw,2.4rem)}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,56px);align-items:center}
+.about-card{background:var(--navy-800);color:#fff;border-radius:14px;padding:clamp(24px,4vw,38px);position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.about-card::after{content:"";position:absolute;right:-30px;bottom:-30px;width:180px;height:180px;background:radial-gradient(circle,rgba(245,190,40,.18),transparent 70%)}
+.about-card .logo{width:64px;height:64px;margin-bottom:14px}
+.about-card h3{color:var(--gold);font-size:1.1rem}
+.about-card ul{display:grid;gap:10px;margin-top:8px}
+.about-card li{display:flex;gap:10px;align-items:flex-start;color:#dbe6f7;font-size:.95rem}
+.about-card li svg{width:18px;height:18px;color:var(--blue);flex:none;margin-top:3px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.chip{font-family:var(--ff-h);font-weight:600;font-size:.82rem;color:var(--blue);background:rgba(0,133,255,.08);border:1px solid rgba(0,133,255,.25);padding:6px 12px;border-radius:999px}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(18px,2.4vw,26px)}
+.svc{background:#fff;border:1px solid #e6ecf4;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 14px rgba(8,20,38,.05);transition:transform .2s,box-shadow .2s,border-color .2s}
+.svc:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:rgba(0,133,255,.4)}
+.svc .media{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,var(--navy-700),var(--navy-900));display:grid;place-items:center;overflow:hidden}
+.svc .media .mark{position:absolute;width:62%;height:62%;opacity:.10;color:#fff}
+.svc .media .picicon{width:64px;height:64px;color:var(--gold);z-index:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.4))}
+.svc .media .badge{position:absolute;top:10px;left:10px;z-index:2;font-family:var(--ff-h);font-weight:700;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--navy-900);background:var(--gold);padding:4px 9px;border-radius:6px}
+.svc .num{position:absolute;right:12px;bottom:8px;z-index:2;font-family:var(--ff-h);font-weight:800;font-size:2.4rem;color:rgba(255,255,255,.12);line-height:1}
+.svc .body{padding:clamp(18px,2.4vw,26px);display:flex;flex-direction:column;flex:1}
+.svc .ic-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.svc .ic{width:44px;height:44px;flex:none;border-radius:10px;background:rgba(0,133,255,.1);color:var(--blue);display:grid;place-items:center}
+.svc .ic svg{width:24px;height:24px}
+.svc h3{font-size:1.18rem;margin:0}
+.svc .am-t{font-family:"Noto Sans Ethiopic";color:var(--muted);font-size:.86rem;margin:-2px 0 8px}
+.svc p.desc{color:var(--slate);font-size:.94rem;margin:0 0 12px}
+.svc ul.feat{display:grid;gap:7px;margin:0 0 16px}
+.svc ul.feat li{display:flex;gap:9px;align-items:flex-start;font-size:.88rem;color:var(--slate)}
+.svc ul.feat li svg{width:15px;height:15px;color:var(--gold-d);flex:none;margin-top:4px}
+.svc .foot{margin-top:auto;display:flex;gap:10px;flex-wrap:wrap}
+
+/* why */
+.why{background:linear-gradient(180deg,var(--navy-800),var(--navy-900));color:#fff}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2vw,22px)}
+.why-card{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;padding:24px;transition:border-color .2s,background .2s}
+.why-card:hover{border-color:var(--gold);background:rgba(245,190,40,.06)}
+.why-card .ic{width:46px;height:46px;border-radius:10px;background:rgba(245,190,40,.14);color:var(--gold);display:grid;place-items:center;margin-bottom:14px}
+.why-card .ic svg{width:24px;height:24px}
+.why-card h3{font-size:1.08rem;margin:0 0 6px;color:#fff}
+.why-card p{color:#cdd9ec;font-size:.92rem;margin:0}
+.why-card.wide{grid-column:span 1}
+
+/* work gallery */
+.work-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tile{position:relative;aspect-ratio:4/3;border-radius:12px;overflow:hidden;border:1px solid #e1e8f1;background:linear-gradient(135deg,var(--navy-700),var(--navy-900));cursor:pointer;display:grid;place-items:center;padding:0}
+.tile .mark{position:absolute;width:70%;height:70%;opacity:.10;color:#fff}
+.tile .picicon{width:46px;height:46px;color:var(--gold);z-index:1}
+.tile .cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:12px;background:linear-gradient(transparent,rgba(8,20,38,.92));color:#fff;text-align:left}
+.tile .cap b{font-family:var(--ff-h);font-size:.92rem;display:block}
+.tile .cap small{color:var(--gold);font-family:"Noto Sans Ethiopic";font-size:.74rem}
+.tile .rep{position:absolute;top:8px;left:8px;z-index:2;font-size:.6rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:rgba(0,0,0,.45);color:#fff;padding:3px 7px;border-radius:5px;backdrop-filter:blur(2px)}
+.work-note{font-size:.85rem;color:var(--muted);margin-top:14px;display:flex;gap:8px;align-items:center}
+.work-note svg{width:16px;height:16px;color:var(--blue);flex:none}
+
+/* how */
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,22px);counter-reset:step}
+.step{position:relative;background:#fff;border:1px solid #e6ecf4;border-radius:12px;padding:26px 22px 22px;box-shadow:0 4px 14px rgba(8,20,38,.05)}
+.step .n{font-family:var(--ff-h);font-weight:800;font-size:2.6rem;color:rgba(0,133,255,.14);line-height:1;position:absolute;top:10px;right:16px}
+.step .ic{width:46px;height:46px;border-radius:10px;background:rgba(0,133,255,.1);color:var(--blue);display:grid;place-items:center;margin-bottom:14px}
+.step .ic svg{width:24px;height:24px}
+.step h3{font-size:1.05rem;margin:0 0 6px}
+.step p{font-size:.9rem;color:var(--slate);margin:0}
+
+/* cta band */
+.cta{position:relative;background:linear-gradient(120deg,var(--blue-d),var(--blue));color:#fff;overflow:hidden}
+.cta::before{content:"";position:absolute;inset:0;opacity:.18;background-image:radial-gradient(circle at 12px 12px,#fff 2px,transparent 2px);background-size:34px 34px}
+.cta-in{position:relative;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;padding:clamp(40px,6vw,64px) 0}
+.cta h2{font-size:clamp(1.5rem,3vw,2.2rem);margin:0 0 6px}
+.cta p{margin:0;color:#eaf3ff;font-size:1.05rem}
+.cta .acts{display:flex;flex-wrap:wrap;gap:12px}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(24px,4vw,48px);align-items:start}
+.info-list{display:grid;gap:14px;margin-top:8px}
+.info{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid #e6ecf4;border-radius:12px;padding:18px}
+.info .ic{width:44px;height:44px;flex:none;border-radius:10px;background:rgba(0,133,255,.1);color:var(--blue);display:grid;place-items:center}
+.info .ic svg{width:22px;height:22px}
+.info .k{font-family:var(--ff-h);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted)}
+.info .v{font-family:var(--ff-h);font-weight:700;font-size:1.12rem;color:var(--ink)}
+.info .v a:hover{color:var(--blue)}
+.info .v.am{font-family:"Noto Sans Ethiopic";font-size:1rem}
+.form{background:#fff;border:1px solid #e6ecf4;border-radius:14px;padding:clamp(20px,3vw,30px);box-shadow:var(--shadow)}
+.form h3{margin:0 0 4px}
+.form .hint{font-size:.85rem;color:var(--muted);margin:0 0 18px;display:flex;gap:8px;align-items:flex-start}
+.form .hint svg{width:16px;height:16px;color:#1FA855;flex:none;margin-top:2px}
+.field{margin-bottom:14px}
+.field label{display:block;font-family:var(--ff-h);font-weight:600;font-size:.86rem;margin-bottom:6px;color:var(--ink)}
+.field label .req{color:#d23b3b}
+.field input,.field select,.field textarea{width:100%;font-family:var(--ff-b);font-size:1rem;padding:.8em .9em;border:1.5px solid #d7e0ec;border-radius:9px;background:#fbfcfe;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+.field textarea{min-height:96px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(0,133,255,.15)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form .submit{width:100%;justify-content:center;font-size:1.05rem;padding:1em}
+.form .err{color:#d23b3b;font-size:.82rem;margin-top:6px;display:none}
+.form.invalid .err{display:block}
+
+/* footer */
+footer.site{background:var(--navy-900);color:#cdd9ec;border-top:3px solid var(--gold);padding:clamp(44px,6vw,68px) 0 26px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:clamp(22px,3vw,40px)}
+.foot-brand .logo{width:54px;height:54px;margin-bottom:12px}
+.foot-brand b{display:block;font-family:var(--ff-h);color:#fff;font-size:1.1rem}
+.foot-brand .am{color:var(--gold);font-family:"Noto Sans Ethiopic";font-size:.9rem;margin-bottom:10px}
+.foot-brand .slg{font-size:.9rem;color:#9fb3d1;max-width:34ch}
+footer h4{color:#fff;font-size:.95rem;text-transform:uppercase;letter-spacing:.12em;margin:0 0 14px;font-family:var(--ff-h)}
+footer ul{display:grid;gap:9px}
+footer ul a,footer ul li{font-size:.92rem;color:#cdd9ec}
+footer ul a:hover{color:var(--gold)}
+.foot-contact li{display:flex;gap:9px;align-items:flex-start}
+.foot-contact svg{width:16px;height:16px;color:var(--blue);flex:none;margin-top:3px}
+.foot-contact a:hover{color:var(--gold)}
+.foot-bottom{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;font-size:.84rem;color:#8aa0c2}
+
+/* floating wa */
+.fab{position:fixed;right:18px;bottom:18px;z-index:90;width:58px;height:58px;border-radius:50%;background:#1FA855;color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px rgba(31,168,85,.5);transition:transform .15s}
+.fab:hover{transform:scale(1.07)}
+.fab svg{width:30px;height:30px}
+.fab::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #1FA855;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.5);opacity:0}}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:120;background:rgba(8,20,38,.92);display:none;place-items:center;padding:20px}
+.lb.open{display:grid}
+.lb-box{position:relative;max-width:760px;width:100%;background:linear-gradient(135deg,var(--navy-700),var(--navy-900));border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.lb-media{aspect-ratio:16/9;display:grid;place-items:center;position:relative}
+.lb-media .mark{position:absolute;width:55%;height:55%;opacity:.12;color:#fff}
+.lb-media .picicon{width:90px;height:90px;color:var(--gold)}
+.lb-cap{padding:18px 22px;color:#fff}
+.lb-cap b{font-family:var(--ff-h);font-size:1.2rem}
+.lb-cap .am{color:var(--gold);font-family:"Noto Sans Ethiopic";display:block;margin-top:2px}
+.lb-cap .rep{display:inline-block;margin-top:10px;font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:#9fb3d1;border:1px solid var(--line);padding:4px 9px;border-radius:6px}
+.lb-close{position:absolute;top:10px;right:10px;z-index:3;width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;font-size:1.4rem;cursor:pointer;display:grid;place-items:center}
+.lb-close:hover{background:var(--gold);color:var(--navy-900)}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.12);color:#fff;font-size:1.5rem;cursor:pointer;display:grid;place-items:center}
+.lb-nav:hover{background:var(--gold);color:var(--navy-900)}
+.lb-prev{left:10px}.lb-next{right:10px}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* responsive */
+@media(max-width:980px){
+  .hero-grid{grid-template-columns:1fr}
+  .card-echo{max-width:460px}
+  .trust-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-item:nth-child(3){border-left:0}
+  .about-grid,.contact-grid{grid-template-columns:1fr}
+  .why-grid{grid-template-columns:repeat(2,1fr)}
+  .work-grid{grid-template-columns:repeat(2,1fr)}
+  .how-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:760px){
+  .menu,.nav-cta .desk-only{display:none}
+  .burger{display:inline-flex}
+  .lang{order:3}
+  .mobile-panel{display:block;position:fixed;inset:72px 0 0;background:var(--navy-900);z-index:99;transform:translateX(100%);transition:transform .25s ease;overflow:auto;padding:18px}
+  .mobile-panel.open{transform:none}
+  .mobile-panel a{display:block;color:#eaf1fb;font-family:var(--ff-h);font-weight:600;padding:14px 8px;border-bottom:1px solid var(--line)}
+  .mobile-panel a:hover{color:var(--gold)}
+  .mobile-panel .mp-cta{display:grid;gap:10px;margin-top:18px}
+  .svc-grid{grid-template-columns:1fr}
+  .row2{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+  .trust-grid,.why-grid,.work-grid,.how-grid,.foot-grid{grid-template-columns:1fr}
+  .trust-item{border-left:0;border-top:1px solid #eef2f8}
+  .trust-item:first-child{border-top:0}
+  .hero-cta .btn{flex:1 1 auto;justify-content:center}
+  .fab{width:54px;height:54px;right:14px;bottom:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site" id="top">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="Berhan Electrical Solutions — home">
+      <svg class="logo" viewBox="0 0 600 600" role="img" aria-hidden="true"><g fill="none" stroke="#0085FF" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="#F5BE28"/><path d="M435 235 H510 V150" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="510" cy="150" r="16" fill="#F5BE28"/><path d="M435 410 H525 V470" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="525" cy="470" r="16" fill="#F5BE28"/><path d="M255 470 H345" stroke="#F5BE28" stroke-width="26"/></svg>
+      <span class="brand-txt"><b>BERHAN</b><span data-i18n="brand_am">ኤሌትሪካል ሉሽንስ</span></span>
+    </a>
+    <nav class="menu" aria-label="Primary">
+      <a href="#home" data-i18n="nav_home">Home</a>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#work" data-i18n="nav_work">Our Work</a>
+      <a href="#why" data-i18n="nav_why">Why Us</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="am" aria-pressed="false">አማ</button>
+      </div>
+      <a class="btn btn-blue btn-sm desk-only" href="tel:+251993550104">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span data-i18n="call">Call</span>
+      </a>
+      <a class="btn btn-wa btn-sm desk-only" href="https://wa.me/251993550104" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg>
+        <span data-i18n="whatsapp">WhatsApp</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mpanel"><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-panel" id="mpanel">
+    <a href="#home" data-i18n="nav_home">Home</a>
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#services" data-i18n="nav_services">Services</a>
+    <a href="#work" data-i18n="nav_work">Our Work</a>
+    <a href="#why" data-i18n="nav_why">Why Us</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+    <div class="mp-cta">
+      <a class="btn btn-blue" href="tel:+251993550104"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-i18n="call_now">Call Now</span></a>
+      <a class="btn btn-wa" href="https://wa.me/251993550104" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg><span data-i18n="whatsapp">WhatsApp</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero on-dark" id="home">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="hero_eyebrow">Kera Kore · Addis Ababa, Ethiopia</p>
+      <h1 data-i18n="hero_h1">BERHAN ELECTRICAL SOLUTIONS</h1>
+      <p class="am-name" data-i18n="hero_am">ብርሃን ኤሌክትሪካል ሉሽንስ</p>
+      <p class="slogan"><span class="en" data-i18n="slogan_en">Electrical. Security. Connectivity. All in One Solution</span><span class="am" data-i18n="slogan_am" hidden>ኤሌክትሪካል ደህንነት፣ ግንኙነት — ሁሉም በአንድ መፍት።</span></p>
+      <p class="support" data-i18n="hero_support"><b>Electrical</b> • <b>Security</b> • <b>TV/Satellite</b> • <b>Internet &amp; Network</b> solutions for homes and businesses.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="tel:+251993550104"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-i18n="call_now">Call Now</span></a>
+        <a class="btn btn-wa" href="https://wa.me/251993550104" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg><span data-i18n="wa_us">WhatsApp Us</span></a>
+        <button class="subtle" data-scroll="#services"><span data-i18n="explore">Explore Our Services</span> <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg></button>
+      </div>
+    </div>
+    <aside class="card-echo reveal" aria-label="Contact card">
+      <div class="top">
+        <svg class="logo" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="#0085FF" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="#F5BE28"/><path d="M435 235 H510 V150" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="510" cy="150" r="16" fill="#F5BE28"/><path d="M435 410 H525 V470" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="525" cy="470" r="16" fill="#F5BE28"/><path d="M255 470 H345" stroke="#F5BE28" stroke-width="26"/></svg>
+        <span><b>BERHAN ELECTRICAL SOLUTIONS</b><br><span data-i18n="brand_am">ኤሌትሪካል ሉሽንስ</span></span>
+      </div>
+      <p class="label" data-i18n="card_phone">Call / WhatsApp</p>
+      <div class="numbox">
+        <a href="tel:+251993550104"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>0993 550 104</a>
+        <a href="tel:+251713791963"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>0713 791 963</a>
+      </div>
+      <p class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="loc_full">Kera Kore, Addis Ababa, Ethiopia</span></p>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="trust" aria-label="At a glance">
+  <div class="container trust-grid">
+    <div class="trust-item reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg></span><div><h3 data-i18n="t1h">Four disciplines</h3><p data-i18n="t1p">Electrical, TV/satellite, CCTV/intercom &amp; network.</p></div></div>
+    <div class="trust-item reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span><div><h3 data-i18n="t2h">One point of contact</h3><p data-i18n="t2p">Call or WhatsApp — we handle the rest.</p></div></div>
+    <div class="trust-item reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></span><div><h3 data-i18n="t3h">Homes &amp; businesses</h3><p data-i18n="t3p">Practical work for residences and shops.</p></div></div>
+    <div class="trust-item reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><h3 data-i18n="t4h">Local to Addis</h3><p data-i18n="t4p">Based in Kera Kore, serving Addis Ababa.</p></div></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec" id="about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="about_eyebrow">Who we are</p>
+      <h2 data-i18n="about_h2">About Berhan Electrical Solutions</h2>
+      <p class="lead" data-i18n="about_p1">Berhan Electrical Solutions is a technical services company based in Kera Kore, Addis Ababa. We provide practical, dependable installations and repairs for homes and businesses across the city.</p>
+      <p class="lead" data-i18n="about_p2">Our work covers four core areas — electrical, TV/satellite, CCTV &amp; intercom, and internet/network — so customers can rely on one team for connected, secure, well‑wired spaces.</p>
+      <div class="chips">
+        <span class="chip" data-i18n="svc1_en">General Electrical Work</span>
+        <span class="chip" data-i18n="svc2_en">TV / Satellite Installation</span>
+        <span class="chip" data-i18n="svc3_en">CCTV &amp; Intercom</span>
+        <span class="chip" data-i18n="svc4_en">Internet / Network</span>
+      </div>
+    </div>
+    <div class="about-card reveal on-dark">
+      <svg class="logo" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="#0085FF" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="#F5BE28"/><path d="M435 235 H510 V150" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="510" cy="150" r="16" fill="#F5BE28"/><path d="M435 410 H525 V470" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="525" cy="470" r="16" fill="#F5BE28"/><path d="M255 470 H345" stroke="#F5BE28" stroke-width="26"/></svg>
+      <h3 data-i18n="about_card_h">What we stand for</h3>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="about_li1">Quality, safety and attention to detail on every job.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="about_li2">Clean, organised installation and cable routing.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="about_li3">Solutions matched to the actual project and budget.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="about_li4">One company for electrical, security and connectivity.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="sec light" id="services">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="eyebrow" data-i18n="svc_eyebrow">What we do</p>
+      <h2 data-i18n="svc_h2">Our Services</h2>
+      <p class="lead center" data-i18n="svc_lead">Four professional service categories for homes, shops, offices and small commercial buildings in Addis Ababa.</p>
+    </div>
+    <div class="svc-grid">
+
+      <!-- 1 Electrical -->
+      <article class="svc reveal">
+        <div class="media" role="img" aria-label="Representative example: electrician performing general electrical work">
+          <span class="badge" data-i18n="rep_badge">Representative example</span>
+          <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+          <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg>
+          <span class="num">01</span>
+        </div>
+        <div class="body">
+          <div class="ic-row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg></span><div><h3 data-i18n="svc1_en">General Electrical Work</h3><p class="am-t" data-i18n="svc1_am">አጠቃላይ የኤሌክትሪክ ራዎች</p></div></div>
+          <p class="desc" data-i18n="svc1_d">Wiring, installations, lighting, faults and repairs done safely and tidily.</p>
+          <ul class="feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f1">Residential wiring &amp; rewiring</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f2">New electrical installations</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f3">Fault finding &amp; troubleshooting</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f4">Lights, switches &amp; sockets</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f5">Circuit breakers &amp; distribution boards</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f6">Indoor &amp; outdoor lighting</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc1_f7">Repairs &amp; maintenance</span></li>
+          </ul>
+          <div class="foot">
+            <button class="btn btn-outline btn-sm" data-request="General Electrical Work|አጠቃላይ የኤሌክትሪክ ሥራዎች" data-i18n="request">Request Service</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 TV/Satellite -->
+      <article class="svc reveal">
+        <div class="media" role="img" aria-label="Representative example: technician installing and aligning a satellite dish">
+          <span class="badge" data-i18n="rep_badge">Representative example</span>
+          <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+          <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a8 8 0 0 1 8-8"/><path d="M4 14a12 12 0 0 1 12-12"/><circle cx="5" cy="19" r="2"/><path d="M7 17 21 3"/></svg>
+          <span class="num">02</span>
+        </div>
+        <div class="body">
+          <div class="ic-row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="13" rx="2"/><path d="m17 2-5 5-5-5"/></svg></span><div><h3 data-i18n="svc2_en">TV / Satellite Installation</h3><p class="am-t" data-i18n="svc2_am">የቲቪ መስመር ዝርጋታ</p></div></div>
+          <p class="desc" data-i18n="svc2_d">Dishes, antennas, cabling and TVs set up for a clear, stable signal.</p>
+          <ul class="feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f1">Satellite dish installation &amp; alignment</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f2">Signal optimisation</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f3">TV antenna installation</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f4">TV / coaxial cable installation</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f5">TV wall mounting</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f6">Multi‑room TV connections</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc2_f7">Receiver connection &amp; signal repair</span></li>
+          </ul>
+          <div class="foot">
+            <button class="btn btn-outline btn-sm" data-request="TV / Satellite Installation|የቲቪ መስመር ዝርጋታ" data-i18n="request">Request Service</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3 CCTV/Intercom -->
+      <article class="svc reveal">
+        <div class="media" role="img" aria-label="Representative example: technician installing a CCTV security camera">
+          <span class="badge" data-i18n="rep_badge">Representative example</span>
+          <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+          <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m16 10 5-3v10l-5-3"/><rect x="2" y="6" width="14" height="12" rx="2"/><circle cx="9" cy="12" r="2.5"/></svg>
+          <span class="num">03</span>
+        </div>
+        <div class="body">
+          <div class="ic-row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 10 5-3v10l-5-3"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg></span><div><h3 data-i18n="svc3_en">CCTV Camera &amp; Intercom</h3><p class="am-t" data-i18n="svc3_am">የCCTV ካሜራ እና ኢንተርኮም</p></div></div>
+          <p class="desc" data-i18n="svc3_d">Cameras, recorders and intercoms installed for real coverage and peace of mind.</p>
+          <ul class="feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f1">Indoor &amp; outdoor CCTV cameras</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f2">DVR / NVR setup</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f3">CCTV cable installation</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f4">Camera positioning &amp; coverage planning</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f5">Mobile remote viewing</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f6">Video / audio intercom &amp; doorbell</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc3_f7">Troubleshooting &amp; maintenance</span></li>
+          </ul>
+          <div class="foot">
+            <button class="btn btn-outline btn-sm" data-request="CCTV Camera & Intercom|የCCTV ካሜራ እና ኢንተርኮም" data-i18n="request">Request Service</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4 Internet/Network -->
+      <article class="svc reveal">
+        <div class="media" role="img" aria-label="Representative example: technician installing network cabling and a router">
+          <span class="badge" data-i18n="rep_badge">Representative example</span>
+          <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+          <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+          <span class="num">04</span>
+        </div>
+        <div class="body">
+          <div class="ic-row"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg></span><div><h3 data-i18n="svc4_en">Internet / Network Installation</h3><p class="am-t" data-i18n="svc4_am">የኢንተርኔት መስመር ዝርጋታ</p></div></div>
+          <p class="desc" data-i18n="svc4_d">Home and office networks, cabling and Wi‑Fi set up to work reliably.</p>
+          <ul class="feat">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f1">Home &amp; office network installation</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f2">LAN / Ethernet cabling</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f3">Router setup &amp; Wi‑Fi access points</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f4">RJ45 termination</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f5">Cable routing &amp; organisation</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f6">Wi‑Fi coverage improvement</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="svc4_f7">Network troubleshooting</span></li>
+          </ul>
+          <div class="foot">
+            <button class="btn btn-outline btn-sm" data-request="Internet / Network Installation|የኢንተርኔት መስመር ዝርጋታ" data-i18n="request">Request Service</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="sec why on-dark" id="why">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="eyebrow" data-i18n="why_eyebrow">Our promise</p>
+      <h2 data-i18n="why_h2">Why Choose Berhan Electrical Solutions?</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><h3 data-i18n="w1h">Professional service</h3><p data-i18n="w1p">We approach every job with attention to quality, safety and detail.</p></div>
+      <div class="why-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><h3 data-i18n="w2h">Reliable solutions</h3><p data-i18n="w2p">We focus on practical, dependable results for homes and businesses.</p></div>
+      <div class="why-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span><h3 data-i18n="w3h">Multiple technical services</h3><p data-i18n="w3p">Electrical, TV/satellite, CCTV/intercom and network — from one company.</p></div>
+      <div class="why-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M7 12h10M10 18h4"/></svg></span><h3 data-i18n="w4h">Clean &amp; organised work</h3><p data-i18n="w4p">Professional installation and tidy, well‑routed cabling.</p></div>
+      <div class="why-card reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><h3 data-i18n="w5h">Customer‑focused</h3><p data-i18n="w5p">We listen to your needs and fit the solution to the actual project.</p></div>
+      <div class="why-card reveal" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:14px">
+        <h3 style="margin:0" data-i18n="w_cta_h">Ready when you are</h3>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn btn-gold btn-sm" href="tel:+251993550104"><span data-i18n="call_now">Call Now</span></a>
+          <a class="btn btn-wa btn-sm" href="https://wa.me/251993550104" target="_blank" rel="noopener"><span data-i18n="wa_us">WhatsApp Us</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WORK / EXAMPLES ============ -->
+<section class="sec" id="work">
+  <div class="container">
+    <div class="sec-head reveal">
+      <p class="eyebrow" data-i18n="work_eyebrow">Gallery</p>
+      <h2 data-i18n="work_h2">Our Services in Action</h2>
+      <p class="lead" data-i18n="work_lead">Visual examples of the type of work we perform. These are representative service illustrations, not completed customer projects.</p>
+    </div>
+    <div class="work-grid" id="gallery">
+      <button class="tile reveal" data-i="0" data-en="General Electrical Work" data-am="አጠቃላይ የኤሌክትሪክ ሥራዎች" aria-label="Open example: General Electrical Work">
+        <span class="rep" data-i18n="rep_short">Example</span>
+        <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+        <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg>
+        <span class="cap"><b data-i18n="svc1_en">General Electrical Work</b><small data-i18n="svc1_am">አጠቃይ የኤሌትሪክ ራዎች</small></span>
+      </button>
+      <button class="tile reveal" data-i="1" data-en="TV / Satellite Installation" data-am="የቲቪ መስመር ዝርጋታ" aria-label="Open example: TV / Satellite Installation">
+        <span class="rep" data-i18n="rep_short">Example</span>
+        <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+        <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10a8 8 0 0 1 8-8"/><circle cx="5" cy="19" r="2"/><path d="M7 17 21 3"/></svg>
+        <span class="cap"><b data-i18n="svc2_en">TV / Satellite Installation</b><small data-i18n="svc2_am">የቲቪ መስመር ዝርጋታ</small></span>
+      </button>
+      <button class="tile reveal" data-i="2" data-en="CCTV Camera &amp; Intercom" data-am="የCCTV ካሜራ እና ኢንተርኮም" aria-label="Open example: CCTV Camera and Intercom">
+        <span class="rep" data-i18n="rep_short">Example</span>
+        <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+        <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m16 10 5-3v10l-5-3"/><rect x="2" y="6" width="14" height="12" rx="2"/><circle cx="9" cy="12" r="2.5"/></svg>
+        <span class="cap"><b data-i18n="svc3_en">CCTV Camera &amp; Intercom</b><small data-i18n="svc3_am">የCCTV ካሜራ እና ኢንተርኮም</small></span>
+      </button>
+      <button class="tile reveal" data-i="3" data-en="Internet / Network Installation" data-am="የኢንተርኔት መስመር ዝርጋታ" aria-label="Open example: Internet / Network Installation">
+        <span class="rep" data-i18n="rep_short">Example</span>
+        <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+        <svg class="picicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+        <span class="cap"><b data-i18n="svc4_en">Internet / Network Installation</b><small data-i18n="svc4_am">የኢንተርኔት መስመር ዝርጋታ</small></span>
+      </button>
+    </div>
+    <p class="work-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><span data-i18n="work_note">Real project photographs will replace these examples once provided by the company.</span></p>
+  </div>
+</section>
+
+<!-- ============ HOW ============ -->
+<section class="sec light" id="how">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <p class="eyebrow" data-i18n="how_eyebrow">Simple process</p>
+      <h2 data-i18n="how_h2">How We Work</h2>
+    </div>
+    <div class="how-grid">
+      <div class="step reveal"><span class="n">01</span><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><h3 data-i18n="h1h">Contact us</h3><p data-i18n="h1p">Call or WhatsApp us about your service needs.</p></div>
+      <div class="step reveal"><span class="n">02</span><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><h3 data-i18n="h2h">Discuss your needs</h3><p data-i18n="h2p">We understand the problem or installation requirement.</p></div>
+      <div class="step reveal"><span class="n">03</span><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94z"/></svg></span><h3 data-i18n="h3h">Professional service</h3><p data-i18n="h3p">We provide the right installation, repair or technical solution.</p></div>
+      <div class="step reveal"><span class="n">04</span><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg></span><h3 data-i18n="h4h">Complete the job</h3><p data-i18n="h4p">We finish with attention to functionality, safety and cleanliness.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta on-dark">
+  <div class="container cta-in">
+    <div class="reveal">
+      <h2 data-i18n="cta_h2">Need Electrical, Security, TV or Network Services?</h2>
+      <p data-i18n="cta_p">Let’s discuss your project.</p>
+    </div>
+    <div class="acts reveal">
+      <a class="btn btn-gold" href="tel:+251993550104"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span data-i18n="cta_call">Call 0993 550 104</span></a>
+      <a class="btn btn-wa" href="https://wa.me/251993550104" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg><span data-i18n="wa_us">WhatsApp Us</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="sec" id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <p class="eyebrow" data-i18n="contact_eyebrow">Get in touch</p>
+      <h2 data-i18n="contact_h2">Contact &amp; Request a Service</h2>
+      <p class="lead" data-i18n="contact_lead">Reach us by phone or WhatsApp, or send a request using the form — it opens WhatsApp with your details ready to send.</p>
+      <div class="info-list">
+        <div class="info"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><div class="k" data-i18n="c_loc">Location</div><div class="v" data-i18n="loc_full">Kera Kore, Addis Ababa, Ethiopia</div></div></div>
+        <div class="info"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><div><div class="k" data-i18n="c_phone">Phone</div><div class="v"><a href="tel:+251993550104">0993 550 104</a></div><div class="v"><a href="tel:+251713791963">0713 791 963</a></div></div></div>
+        <div class="info"><span class="ic" style="background:rgba(31,168,85,.12);color:#1FA855"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg></span><div><div class="k" data-i18n="c_wa">WhatsApp</div><div class="v"><a href="https://wa.me/251993550104" target="_blank" rel="noopener">+251 993 550 104</a></div></div></div>
+      </div>
+    </div>
+
+    <form class="form reveal" id="reqForm" novalidate>
+      <h3 data-i18n="form_h">Request a Service</h3>
+      <p class="hint"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg><span data-i18n="form_hint">Submitting opens WhatsApp with your details pre‑filled. No email is sent.</span></p>
+      <div class="field">
+        <label for="f-name"><span data-i18n="f_name">Name</span> <span class="req">*</span></label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required data-i18n-ph="ph_name" placeholder="Your full name">
+      </div>
+      <div class="field">
+        <label for="f-phone"><span data-i18n="f_phone">Phone Number</span> <span class="req">*</span></label>
+        <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required data-i18n-ph="ph_phone" placeholder="e.g. 09XX XXX XXX">
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label for="f-service" data-i18n="f_service">Service Needed</label>
+          <select id="f-service" name="service">
+            <option value="" data-i18n="opt_choose">— Choose a service —</option>
+            <option value="General Electrical Work" data-i18n="svc1_en">General Electrical Work</option>
+            <option value="TV / Satellite Installation" data-i18n="svc2_en">TV / Satellite Installation</option>
+            <option value="CCTV Camera & Intercom" data-i18n="svc3_en">CCTV Camera &amp; Intercom</option>
+            <option value="Internet / Network Installation" data-i18n="svc4_en">Internet / Network Installation</option>
+            <option value="Other" data-i18n="opt_other">Other / Not sure</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-date" data-i18n="f_date">Preferred Date</label>
+          <input id="f-date" name="date" type="date">
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-msg" data-i18n="f_msg">Message</label>
+        <textarea id="f-msg" name="message" data-i18n-ph="ph_msg" placeholder="Briefly describe the work or problem…"></textarea>
+      </div>
+      <p class="err" data-i18n="form_err">Please enter your name and phone number.</p>
+      <button class="btn btn-wa submit" type="submit"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg><span data-i18n="form_submit">Request Service</span></button>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <svg class="logo" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="#0085FF" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="#F5BE28"/><path d="M435 235 H510 V150" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="510" cy="150" r="16" fill="#F5BE28"/><path d="M435 410 H525 V470" fill="none" stroke="#0085FF" stroke-width="22" stroke-linecap="round"/><circle cx="525" cy="470" r="16" fill="#F5BE28"/><path d="M255 470 H345" stroke="#F5BE28" stroke-width="26"/></svg>
+        <b>BERHAN ELECTRICAL SOLUTIONS</b>
+        <span class="am" data-i18n="brand_am">ብርሃን ኤሌትሪካል ሉሽንስ</span>
+        <p class="slg"><span class="en" data-i18n="slogan_en">Electrical. Security. Connectivity. All in One Solution</span><span class="am" data-i18n="slogan_am" hidden>ኤሌክትሪካል ደህንነት፣ ግንኙነት — ሁሉም በአንድ መፍትሄ።</span></p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_services">Services</h4>
+        <ul>
+          <li><a href="#services" data-i18n="svc1_en">General Electrical Work</a></li>
+          <li><a href="#services" data-i18n="svc2_en">TV / Satellite Installation</a></li>
+          <li><a href="#services" data-i18n="svc3_en">CCTV Camera &amp; Intercom</a></li>
+          <li><a href="#services" data-i18n="svc4_en">Internet / Network Installation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot_nav">Navigate</h4>
+        <ul>
+          <li><a href="#about" data-i18n="nav_about">About</a></li>
+          <li><a href="#work" data-i18n="nav_work">Our Work</a></li>
+          <li><a href="#why" data-i18n="nav_why">Why Us</a></li>
+          <li><a href="#how" data-i18n="how_h2s">How We Work</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot_contact">Contact</h4>
+        <ul class="foot-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="loc_full">Kera Kore, Addis Ababa, Ethiopia</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+251993550104">0993 550 104</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+251713791963">0713 791 963</a></li>
+          <li><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg><a href="https://wa.me/251993550104" target="_blank" rel="noopener">+251 993 550 104</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 BERHAN ELECTRICAL SOLUTIONS. <span data-i18n="rights">All rights reserved.</span></span>
+      <span data-i18n="foot_local">Kera Kore · Addis Ababa · Ethiopia</span>
+    </div>
+  </div>
+</footer>
+
+<!-- floating whatsapp -->
+<a class="fab" href="https://wa.me/251993550104" target="_blank" rel="noopener" aria-label="Chat on WhatsApp with +251 993 550 104">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.46-9.43 2.53 0 4.9.99 6.68 2.78a9.36 9.36 0 0 1 2.76 6.66c0 5.2-4.24 9.43-9.45 9.43zm8.04-17.47A11.3 11.3 0 0 0 12.04.5C5.8.5.74 5.56.74 11.8c0 2 .52 3.94 1.52 5.66L.5 23.5l6.16-1.62a11.27 11.27 0 0 0 5.38 1.37h.01c6.23 0 11.3-5.06 11.3-11.3 0-3.02-1.17-5.86-3.31-7.99z"/></svg>
+</a>
+
+<!-- lightbox -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Service example viewer">
+  <div class="lb-box">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+    <div class="lb-media">
+      <svg class="mark" viewBox="0 0 600 600" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="28" stroke-linejoin="round"><path d="M120 280 L300 115 L480 280"/><path d="M165 250 V470 H435 V250"/></g><path d="M315 155 L245 315 L300 305 L265 445 L380 275 L320 285 Z" fill="currentColor"/></svg>
+      <svg class="picicon" id="lbIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></svg>
+    </div>
+    <div class="lb-cap"><b id="lbEn"></b><span class="am" id="lbAm"></span><span class="rep" data-i18n="rep_badge">Representative example</span></div>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+var WA="https://wa.me/251993550104";
+var reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- i18n dictionary ---------- */
+var T={
+ en:{
+  skip:"Skip to content",brand_am:"ELECTRICAL SOLUTIONS",
+  nav_home:"Home",nav_about:"About",nav_services:"Services",nav_work:"Our Work",nav_why:"Why Us",nav_contact:"Contact",
+  call:"Call",whatsapp:"WhatsApp",call_now:"Call Now",wa_us:"WhatsApp Us",explore:"Explore Our Services",
+  hero_eyebrow:"Kera Kore · Addis Ababa, Ethiopia",hero_h1:"BERHAN ELECTRICAL SOLUTIONS",hero_am:"ብርሃን ኤሌክትሪካል ሶሉሽንስ",
+  slogan_en:"Electrical. Security. Connectivity. All in One Solution",
+  hero_support:"<b>Electrical</b> • <b>Security</b> • <b>TV/Satellite</b> • <b>Internet &amp; Network</b> solutions for homes and businesses.",
+  card_phone:"Call / WhatsApp",loc_full:"Kera Kore, Addis Ababa, Ethiopia",
+  t1h:"Four disciplines",t1p:"Electrical, TV/satellite, CCTV/intercom & network.",
+  t2h:"One point of contact",t2p:"Call or WhatsApp — we handle the rest.",
+  t3h:"Homes & businesses",t3p:"Practical work for residences and shops.",
+  t4h:"Local to Addis",t4p:"Based in Kera Kore, serving Addis Ababa.",
+  about_eyebrow:"Who we are",about_h2:"About Berhan Electrical Solutions",
+  about_p1:"Berhan Electrical Solutions is a technical services company based in Kera Kore, Addis Ababa. We provide practical, dependable installations and repairs for homes and businesses across the city.",
+  about_p2:"Our work covers four core areas — electrical, TV/satellite, CCTV & intercom, and internet/network — so customers can rely on one team for connected, secure, well-wired spaces.",
+  about_card_h:"What we stand for",
+  about_li1:"Quality, safety and attention to detail on every job.",about_li2:"Clean, organised installation and cable routing.",about_li3:"Solutions matched to the actual project and budget.",about_li4:"One company for electrical, security and connectivity.",
+  svc_eyebrow:"What we do",svc_h2:"Our Services",svc_lead:"Four professional service categories for homes, shops, offices and small commercial buildings in Addis Ababa.",
+  rep_badge:"Representative example",rep_short:"Example",request:"Request Service",
+  svc1_en:"General Electrical Work",svc1_am:"አጠቃይ የኤሌትሪክ ራዎች",svc1_d:"Wiring, installations, lighting, faults and repairs done safely and tidily.",
+  svc1_f1:"Residential wiring & rewiring",svc1_f2:"New electrical installations",svc1_f3:"Fault finding & troubleshooting",svc1_f4:"Lights, switches & sockets",svc1_f5:"Circuit breakers & distribution boards",svc1_f6:"Indoor & outdoor lighting",svc1_f7:"Repairs & maintenance",
+  svc2_en:"TV / Satellite Installation",svc2_am:"የቲቪ መስመር ዝርጋታ",svc2_d:"Dishes, antennas, cabling and TVs set up for a clear, stable signal.",
+  svc2_f1:"Satellite dish installation & alignment",svc2_f2:"Signal optimisation",svc2_f3:"TV antenna installation",svc2_f4:"TV / coaxial cable installation",svc2_f5:"TV wall mounting",svc2_f6:"Multi-room TV connections",svc2_f7:"Receiver connection & signal repair",
+  svc3_en:"CCTV Camera & Intercom",svc3_am:"የCCTV ካሜራ እና ኢንተርኮም",svc3_d:"Cameras, recorders and intercoms installed for real coverage and peace of mind.",
+  svc3_f1:"Indoor & outdoor CCTV cameras",svc3_f2:"DVR / NVR setup",svc3_f3:"CCTV cable installation",svc3_f4:"Camera positioning & coverage planning",svc3_f5:"Mobile remote viewing",svc3_f6:"Video / audio intercom & doorbell",svc3_f7:"Troubleshooting & maintenance",
+  svc4_en:"Internet / Network Installation",svc4_am:"የኢንተርኔት መስመር ዝርጋታ",svc4_d:"Home and office networks, cabling and Wi-Fi set up to work reliably.",
+  svc4_f1:"Home & office network installation",svc4_f2:"LAN / Ethernet cabling",svc4_f3:"Router setup & Wi-Fi access points",svc4_f4:"RJ45 termination",svc4_f5:"Cable routing & organisation",svc4_f6:"Wi-Fi coverage improvement",svc4_f7:"Network troubleshooting",
+  why_eyebrow:"Our promise",why_h2:"Why Choose Berhan Electrical Solutions?",
+  w1h:"Professional service",w1p:"We approach every job with attention to quality, safety and detail.",
+  w2h:"Reliable solutions",w2p:"We focus on practical, dependable results for homes and businesses.",
+  w3h:"Multiple technical services",w3p:"Electrical, TV/satellite, CCTV/intercom and network — from one company.",
+  w4h:"Clean & organised work",w4p:"Professional installation and tidy, well-routed cabling.",
+  w5h:"Customer-focused",w5p:"We listen to your needs and fit the solution to the actual project.",
+  w_cta_h:"Ready when you are",
+  work_eyebrow:"Gallery",work_h2:"Our Services in Action",work_lead:"Visual examples of the type of work we perform. These are representative service illustrations, not completed customer projects.",
+  work_note:"Real project photographs will replace these examples once provided by the company.",
+  how_eyebrow:"Simple process",how_h2:"How We Work",how_h2s:"How We Work",
+  h1h:"Contact us",h1p:"Call or WhatsApp us about your service needs.",h2h:"Discuss your needs",h2p:"We understand the problem or installation requirement.",h3h:"Professional service",h3p:"We provide the right installation, repair or technical solution.",h4h:"Complete the job",h4p:"We finish with attention to functionality, safety and cleanliness.",
+  cta_h2:"Need Electrical, Security, TV or Network Services?",cta_p:"Let’s discuss your project.",cta_call:"Call 0993 550 104",
+  contact_eyebrow:"Get in touch",contact_h2:"Contact & Request a Service",contact_lead:"Reach us by phone or WhatsApp, or send a request using the form — it opens WhatsApp with your details ready to send.",
+  c_loc:"Location",c_phone:"Phone",c_wa:"WhatsApp",
+  form_h:"Request a Service",form_hint:"Submitting opens WhatsApp with your details pre-filled. No email is sent.",
+  f_name:"Name",f_phone:"Phone Number",f_service:"Service Needed",f_date:"Preferred Date",f_msg:"Message",form_submit:"Request Service",form_err:"Please enter your name and phone number.",
+  ph_name:"Your full name",ph_phone:"e.g. 09XX XXX XXX",ph_msg:"Briefly describe the work or problem…",
+  opt_choose:"— Choose a service —",opt_other:"Other / Not sure",
+  foot_services:"Services",foot_nav:"Navigate",foot_contact:"Contact",rights:"All rights reserved.",foot_local:"Kera Kore · Addis Ababa · Ethiopia",
+  wa_name:"Name",wa_phone:"Phone",wa_service:"Service",wa_date:"Preferred date",wa_msg:"Message",wa_intro:"Hello Berhan Electrical Solutions, I would like to request a service."
+ },
+ am:{
+  skip:"ወደ ይዘት ልል",brand_am:"ኤሌክትሪካል ሶሉሽንስ",
+  nav_home:"መነሻ",nav_about:"ስለ እኛ",nav_services:"አገልግሎቶች",nav_work:"ሥራችን",nav_why:"ለምን እኛ",nav_contact:"አግኙን",
+  call:"ደውል",whatsapp:"ዋትስአፕ",call_now:"አሁን ደውል",wa_us:"በዋትስአፕ ሁልን",explore:"አገልሎቶችንን ይመልከቱ",
+  hero_eyebrow:"ከራ ሬ · አዲስ አበባ፣ ኢትዮጵያ",hero_h1:"ብርሃን ኤሌክትሪካል ሶሉሽንስ",hero_am:"BERHAN ELECTRICAL SOLUTIONS",
+  slogan_am:"ኤሌክትሪካል ደህንነት፣ ግንኙነት — ሁሉም በአንድ መፍት።",
+  hero_support:"<b>ኤሌክትሪክ</b> • <b>ደህንነት</b> • <b>ቴሌቪን/ሳተላይት</b> • <b>ኢንተርኔት እና ኔትወርክ</b> መፍትሄዎች ለመኖሪያ ቤቶችና ለንግድ ቦታዎች።",
+  card_phone:"ደውል / ዋትስአፕ",loc_full:"ከራ ሬ አዲስ አበባ፣ ኢትዮጵያ",
+  t1h:"አራት ዘርች",t1p:"ሌክትሪክ፣ ቴቪዥን/ተላይት CCTV/ኢንተርኮም እና ኔትወርክ።",
+  t2h:"አንድ የመገናኛ ነጥብ",t2p:"ደውልን ወይም በዋትስአፕ ጻሁልን — የቀረውን እኛ እናስተናግዳለን።",
+  t3h:"መኖሪያና ንግድ",t3p:"ለመኖሪያ ቤቶችና ቆች ግባራዊ ሥራ።",
+  t4h:"የአዲስ አበባ",t4p:"በከራ ኮ የተመሰተ፣ አዲስ አበባን የሚያገለግል።",
+  about_eyebrow:"እኛ ማን ነን",about_h2:"ስለ ብርሃን ኤሌትሪካል ሉሽንስ",
+  about_p1:"ብርሃን ኤሌክትሪካል ሶሉሽንስ በከራ ኮሬ፣ አስ አበባ የተመሰረተ የቴክኒክ አገልግሎት ድርጅት ነው። በከተማው ዙሪያ ለመኖሪያ ቤቶችና ንግ ቦታዎች ተግባራዊና አስተማማኝ ተከዎችና ገናዎች እናቀርባለን።",
+  about_p2:"ሥራችን አራት ዋና ዘርፎችን ሸናል — ሌክትሪክ፣ ቴሌቪን/ሳተይት፣ CCTV እና ኢንተርኮም፣ እንዲሁም ኢንተርኔት/ኔትወርክ — ለዚህ ደንበኞች ለተያያዙ፣ ደህንነታቸው የተጠበቁና በጥሩ ኔታ ተሰሩ ቦታዎች አንድ ቡን ላይ መተማመን ይችላሉ።",
+  about_card_h:"የምንቆምበት",
+  about_li1:"በእያንዳንዱ ሥራ ላይ ጥራት፣ ህንነት እና ለዝርዝር ትኩት።",about_li2:"ንጹህና የተደራጀ ተከላ እና የኬብል አደረጃጀት።",about_li3:"ከ实际 ፕሮጀክቱና በጀት ጋር የተጣጣመ መፍትሄ።",about_li4:"ለኤሌክትሪክ፣ ደህንነትና ለግንኙነት አንድ ድርጅት።",
+  svc_eyebrow:"የምንሰራው",svc_h2:"አገልግሎቶቻችን",svc_lead:"ለመኖሪያ ቤቶች ሱቆች፣ ቢሮችና ትናንሽ የንግድ ሕንፃዎች በአዲስ አበባ አራት ሙያዊ የአገልግት ምድቦች",
+  rep_badge:"የአገልግት ምሳ",rep_short:"ምሳሌ",request:"አገልግሎት ይጠይቁ",
+  svc1_en:"General Electrical Work",svc1_am:"አጠቃላይ የኤሌክትሪክ ሥራዎች",svc1_d:"ሽቦ መዘርጋት፣ ተከላ፣ መብራት፣ ችግር መፈለግና ጥገና በደህናና በንጽሕና የተሰሩ።",
+  svc1_f1:"የመኖሪያ ቤት ቦ መዘርጋት እና እንደገና መዘርጋት",svc1_f2:"አዲስ የኤሌክትሪክ ተከላ",svc1_f3:"የችግር ፍለጋ እና መፍታት",svc1_f4:"መብራች፣ ማብሪያዎች እና ሶኬቶች",svc1_f5:"ሰርኪዩት ብከሮች እና የኃይል ማሰራጫ ሳጥኖች",svc1_f6:"የውስጥ እና የውጭ መብራት",svc1_f7:"ጥገና እና ጥበቃ",
+  svc2_en:"TV / Satellite Installation",svc2_am:"የቲቪ መስመር ዝርጋታ",svc2_d:"ዲሾች፣ አንቴናዎች፣ ኬብሎችና ቴሌቪዥኖች ግልጽና የተረጋጋ ምልክት የተዘጋጁ።",
+  svc2_f1:"የሳተላይት ዲሽ ከላ እና አሰላለፍ",svc2_f2:"የምልክት ማመቻቸት",svc2_f3:"የቴሌዥን አንና ተላ",svc2_f4:"የቴሌቪዥን / አክሲያል ኬብል ዝርጋታ",svc2_f5:"ቴሌቪዥን ግድግ ላይ መጫን",svc2_f6:"በብዙ ክፍሎች የቴሌቪዥን ግንኙነት",svc2_f7:"ሪሲር ማገናኘት እና የምልክት ገና",
+  svc3_en:"CCTV Camera & Intercom",svc3_am:"የCCTV ካሜራ እና ኢንተርኮም",svc3_d:"ካሜራዎች፣ መቅዳቶችና ኢንተርኮሞች ለእውነተኛ ሽንና ለላም የተጫኑ።",
+  svc3_f1:"የውስጥ እና የውጭ CCTV ካሜራዎች",svc3_f2:"DVR / NVR ዝግጅት",svc3_f3:"የCCTV ኬል ዝርታ",svc3_f4:"የካሜራ አቀማመጥ እና የሽፋን ዕቅ",svc3_f5:"በሞባይል ሩቅ መመልከት",svc3_f6:"የቪዲዮ / ድምጽ ኢንተርኮም እና የበር ደወል",svc3_f7:"ችግር መፍታት እና ጥበቃ",
+  svc4_en:"Internet / Network Installation",svc4_am:"የኢንተርኔት መስመር ዝርጋታ",svc4_d:"የመኖሪያና የቢሮ ኔትወርኮች ኬብሎችና Wi‑Fi በአስተማማኝ ሁኔታ እንዲሩ የተጋጁ።",
+  svc4_f1:"የመኖሪያ እና የቢሮ ኔትወርክ ተላ",svc4_f2:"LAN / ኢተርኔት ኬብሊንግ",svc4_f3:"ራውተር ዝግጅት እና የWi‑Fi መዳረሻ ጥቦች",svc4_f4:"RJ45 ማጠናቀቅ",svc4_f5:"የኬብል አደረጃጀት እና ድርት",svc4_f6:"የWi‑Fi ሽፋን ማሻሻል",svc4_f7:"የኔትወርክ ችር መፍታት",
+  why_eyebrow:"የእኛ ቃል",why_h2:"ለምን ብርሃን ኤሌትሪካል ሉሽንስን ይምረጡ?",
+  w1h:"ሙያዊ አገልግሎት",w1p:"እያንዳንዱን ሥራ ለጥራት ለደህንነትና ለዝርዝር ትረት እንሰራለን።",
+  w2h:"አስተማማኝ መፍትሄዎች",w2p:"ለመኖሪያ ቤቶችና ንግድ ቦታዎች ተግባራዊና አስተማማኝ ውጤት ላይ እናተኩራለን።",
+  w3h:"በርካታ ቴኒክ አልግቶች",w3p:"ኤሌክትሪክ፣ ቴቪዥን/ተላይት CCTV/ኢንተርኮም እና ኔትወርክ — ከአንድ ድርጅት።",
+  w4h:"ንጹህና የተደጀ ሥ",w4p:"ያዊ ከላ እና የተስተካከለ፣ በጥሩ ሁኔታ የተዘረጋ ኬብል",
+  w5h:"ደንበኛን ያተኮ",w5p:"ላጎትዎን እናዳምጣለን፤ መፍትሄውን ከ实际 ፕሮክቱ ጋር እናስማማለን።",
+  w_cta_h:"እርስዎ ሲዘጋጁ እኛ ዝጁ ን",
+  work_eyebrow:"ካብኔት",work_h2:"አገልግሎቶችን በተግባር",work_lead:"የምንሰራውን ሥራ የሚያሳዩ ሳሌያዊ ምስሎች እነዚህ የአገልግሎት ምሳሌ ቸው እንጂ የተጠናቀቁ የደንበኛ ፕሮክቶች አይደሉም።",
+  work_note:"እውነተኛ የፕሮጀክት ፎቶዎች በድርጅቱ ሲቀርቡ እነዚህን ምሌዎች ተካ።",
+  how_eyebrow:"ቀላል ሂደት",how_h2:"እንዴት እንሰራለን",how_h2s:"እንዴት እንሰራለን",
+  h1h:"ያግኙን",h1p:"ስለ አገልግሎት ላጎትዎ ይደውሉልን ወይም በዋትስአፕ ጻሁልን።",h2h:"ፍጎትዎን እንወያይ",h2p:"ችግሩን ወይም የተከላ መስፈርቱን እንረዳለን።",h3h:"ሙያዊ አገልሎት",h3p:"ተገቢውን ተላ፣ ጥገና ወይም ቴክኒ መፍትሄ እናቀርባለን።",h4h:"ሥራውን እናጠናቅቃለን",h4p:"ለተግባራዊነት፣ ለደህንነትና ለንሕና ኩረት በመስጠት እንጨርሰዋለን",
+  cta_h2:"የኤሌክትሪክ የደህንነት፣ የቴሌቪዥን ወይም የኔትወርክ አልግት ያስፈልግዎታል?",cta_p:"ፕሮጀክትዎን እንነጋርበት።",cta_call:"0993 550 104 ይደው",
+  contact_eyebrow:"ያግኙን",contact_h2:"ማግኛ እና የአገልግሎት ጥያ",contact_lead:"በስልክ ወይም በዋትስአፕ ግኙን፣ ወይም ቅጹን ተጠመው ያቄ ይላኩ — ዝርዝሮችዎ ተጋጅተው ዋትስአፕ ይፈታል",
+  c_loc:"አድራሻ",c_phone:"ስልክ",c_wa:"ዋትስአፕ",
+  form_h:"አገልግሎት ይጠይቁ",form_hint:"ሲልኩ ዝርዝሮችዎ ተጋጅተው ዋትስአፕ ይፈታል ኢሜይል አይላክም",
+  f_name:"ስም",f_phone:"ስልክ ቁጥር",f_service:"የሚያስፈልግ አገልግሎት",f_date:"የሚመረጥ ቀን",f_msg:"መልዕክት",form_submit:"አገልግሎት ይጠይቁ",form_err:"እባክዎ ስምንና ስልክ ቁጥርዎን ያስገቡ።",
+  ph_name:"ሙሉ ስም",ph_phone:"ለምሳሌ 09XX XXX XXX",ph_msg:"ሥራውን ወይም ችግሩን በአጭ ይግለጹ…",
+  opt_choose:"— አገልግሎት ይምረጡ —",opt_other:"ሌላ / እርግጠኛ አይደለሁም",
+  foot_services:"አገልግሎቶች",foot_nav:"ማሰላሰያ",foot_contact:"አግኙን",rights:"መብቱ በህግ የተጠበቀ ነው",foot_local:"ከ ኮሬ · አስ አበባ · ትዮጵያ",
+  wa_name:"ስም",wa_phone:"ስልክ",wa_service:"አገልግሎት",wa_date:"የሚመረጥ ቀን",wa_msg:"መልዕክት",wa_intro:"ሰላም ብርሃን ኤሌትሪካል ሉሽንስ፣ አገልግሎት መጠየቅ እፈልጋለሁ።"
+ }
+};
+
+/* ---------- apply language ---------- */
+var curLang = localStorage.getItem("bes-lang") || "en";
+function applyLang(l){
+  curLang=l; document.documentElement.lang = (l==="am"?"am":"en");
+  localStorage.setItem("bes-lang",l);
+  var d=T[l];
+  document.querySelectorAll("[data-i18n]").forEach(function(el){
+    var k=el.getAttribute("data-i18n"); if(d[k]!=null) el.innerHTML=d[k];
+  });
+  document.querySelectorAll("[data-i18n-ph]").forEach(function(el){
+    var k=el.getAttribute("data-i18n-ph"); if(d[k]!=null) el.setAttribute("placeholder",d[k]);
+  });
+  // slogan dual spans
+  document.querySelectorAll(".slogan .en,.foot-brand .slg .en").forEach(function(e){e.hidden=(l==="am");});
+  document.querySelectorAll(".slogan .am,.foot-brand .slg .am").forEach(function(e){e.hidden=(l!=="am");});
+  // lang buttons
+  document.querySelectorAll(".lang button").forEach(function(b){b.setAttribute("aria-pressed", String(b.dataset.lang===l));});
+  // lightbox caption refresh
+  if(lbIndex!=null) fillLb(lbIndex);
+}
+document.querySelectorAll(".lang button").forEach(function(b){b.addEventListener("click",function(){applyLang(b.dataset.lang);});});
+
+/* ---------- header scroll ---------- */
+var hd=document.querySelector("header.site");
+addEventListener("scroll",function(){hd.classList.toggle("scrolled",scrollY>10);},{passive:true});
+
+/* ---------- mobile menu ---------- */
+var burger=document.getElementById("burger"), panel=document.getElementById("mpanel");
+function closeMenu(){panel.classList.remove("open");burger.setAttribute("aria-expanded","false");document.body.style.overflow="";}
+burger.addEventListener("click",function(){var o=panel.classList.toggle("open");burger.setAttribute("aria-expanded",String(o));document.body.style.overflow=o?"hidden":"";});
+panel.querySelectorAll("a").forEach(function(a){a.addEventListener("click",closeMenu);});
+
+/* ---------- smooth scroll for [data-scroll] ---------- */
+document.querySelectorAll("[data-scroll]").forEach(function(b){b.addEventListener("click",function(){var t=document.querySelector(b.getAttribute("data-scroll"));if(t)t.scrollIntoView({behavior:reduce?"auto":"smooth"});});});
+
+/* ---------- reveal ---------- */
+var revs=document.querySelectorAll(".reveal");
+if(reduce||!("IntersectionObserver" in window)){revs.forEach(function(e){e.classList.add("in");});}
+else{var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target);}});},{threshold:.12,rootMargin:"0px 0px -8% 0px"});revs.forEach(function(e){io.observe(e);});}
+
+/* ---------- active nav on scroll ---------- */
+var secs=["home","about","services","work","why","contact"];
+var navLinks={};document.querySelectorAll(".menu a").forEach(function(a){var h=a.getAttribute("href");if(h&&h[0]==="#")navLinks[h.slice(1)]=a;});
+if("IntersectionObserver" in window){var nio=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){Object.values(navLinks).forEach(function(a){a.removeAttribute("aria-current");});var a=navLinks[x.target.id];if(a)a.setAttribute("aria-current","true");}});},{rootMargin:"-45% 0px -50% 0px"});secs.forEach(function(id){var s=document.getElementById(id);if(s)nio.observe(s);});}
+
+/* ---------- request buttons -> prefill form + scroll ---------- */
+document.querySelectorAll("[data-request]").forEach(function(b){b.addEventListener("click",function(){
+  var parts=b.getAttribute("data-request").split("|");var val=parts[0];
+  var sel=document.getElementById("f-service");if(sel){sel.value=val;}
+  var f=document.getElementById("reqForm");f.classList.remove("invalid");
+  document.getElementById("contact").scrollIntoView({behavior:reduce?"auto":"smooth"});
+  setTimeout(function(){document.getElementById("f-name").focus();},reduce?0:500);
+});});
+
+/* ---------- form -> whatsapp ---------- */
+document.getElementById("reqForm").addEventListener("submit",function(e){
+  e.preventDefault();var f=e.target;
+  var name=f.name.value.trim(),phone=f.phone.value.trim();
+  if(!name||!phone){f.classList.add("invalid");return;}
+  f.classList.remove("invalid");
+  var d=T[curLang];
+  var svcSel=f.service;var svc=svcSel.options[svcSel.selectedIndex]?svcSel.options[svcSel.selectedIndex].text:"";
+  if(!f.service.value)svc="—";
+  var date=f.date.value||"—";var msg=f.message.value.trim()||"—";
+  var L=[];L.push(d.wa_intro);L.push("");
+  L.push(d.wa_name+": "+name);L.push(d.wa_phone+": "+phone);L.push(d.wa_service+": "+svc);L.push(d.wa_date+": "+date);L.push(d.wa_msg+": "+msg);
+  window.open(WA+"?text="+encodeURIComponent(L.join("\n")),"_blank","noopener");
+});
+
+/* ---------- lightbox ---------- */
+var lb=document.getElementById("lb"),lbEn=document.getElementById("lbEn"),lbAm=document.getElementById("lbAm"),lbIcon=document.getElementById("lbIcon");
+var tiles=[].slice.call(document.querySelectorAll("#gallery .tile"));
+var ICONS=[
+ '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
+ '<path d="M4 10a8 8 0 0 1 8-8"/><circle cx="5" cy="19" r="2"/><path d="M7 17 21 3"/>',
+ '<path d="m16 10 5-3v10l-5-3"/><rect x="2" y="6" width="14" height="12" rx="2"/><circle cx="9" cy="12" r="2.5"/>',
+ '<path d="M5 12.55a11 11 0 0 1 14 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/>'
+];
+var lbIndex=null,lastFocus=null;
+function fillLb(i){var t=tiles[i];lbEn.textContent=t.dataset.en;lbAm.textContent=t.dataset.am;lbIcon.innerHTML=ICONS[i]||"";}
+function openLb(i){lbIndex=i;fillLb(i);lastFocus=document.activeElement;lb.classList.add("open");document.body.style.overflow="hidden";document.getElementById("lbClose").focus();}
+function closeLb(){lb.classList.remove("open");document.body.style.overflow="";lbIndex=null;if(lastFocus)lastFocus.focus();}
+function step(n){if(lbIndex==null)return;var i=(lbIndex+n+tiles.length)%tiles.length;lbIndex=i;fillLb(i);}
+tiles.forEach(function(t,i){t.addEventListener("click",function(){openLb(i);});});
+document.getElementById("lbClose").addEventListener("click",closeLb);
+document.getElementById("lbPrev").addEventListener("click",function(){step(-1);});
+document.getElementById("lbNext").addEventListener("click",function(){step(1);});
+lb.addEventListener("click",function(e){if(e.target===lb)closeLb();});
+addEventListener("keydown",function(e){if(!lb.classList.contains("open"))return;if(e.key==="Escape")closeLb();else if(e.key==="ArrowLeft")step(-1);else if(e.key==="ArrowRight")step(1);});
+
+/* init */
+applyLang(curLang);
+})();
+</script>
+</body>
+</html>
